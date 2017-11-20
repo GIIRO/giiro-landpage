@@ -1,0 +1,66 @@
+header.masthead{
+  background-image: url(../img/bg-map.jpg);
+}
+
+.center{
+  margin: 0 auto;
+}
+
+img.logomarca{
+  height: 150px;
+}
+
+.logo .title{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 1rem;
+}
+
+.showcase-img{
+  background-size: 100% 480px;
+}
+
+.no-gutters:nth-child(odd) .showcase-img{
+  border-bottom: 2px solid #00F;
+  border-top: 2px solid #00F;
+  border-left: 2px solid #f90;
+}
+
+.no-gutters:nth-child(even) .showcase-img{
+  border-right: 2px solid #F90;
+  border-bottom: 2px solid #00F;
+  border-top: 2px solid #00f;
+}
+
+.no-gutters:nth-child(1) .showcase-img{
+  border-left: 2px solid #F90;
+  border-top: 0;
+}
+
+.no-gutters:last-child .showcase-img{
+  border-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+  .no-gutters:nth-child(odd) .showcase-img{
+    border-bottom: 2px solid #00F;
+    border-top: 2px solid #00F;
+    border-left: 0px solid #f90;
+  }
+
+  .no-gutters:nth-child(even) .showcase-img{
+    border-right: 0px solid #F90;
+    border-bottom: 2px solid #00F;
+    border-top: 2px solid #00f;
+  }
+
+  .no-gutters:nth-child(1) .showcase-img{
+    border-top: 0;
+    border-left: 0;
+  }
+
+  .no-gutters:last-child .showcase-img{
+    border-bottom: 0;
+  }
+
+}
