@@ -1,5 +1,6 @@
 header.masthead{
   background-image: url(../img/bg-map.jpg);
+  padding-top: 10rem;
 }
 
 .center{
@@ -7,19 +8,25 @@ header.masthead{
 }
 
 img.logomarca{
+  max-width: 100%;
   height: 150px;
 }
 
-.logo .title{
+.logo .title,
+.no-gutters .showcase-text{
   font-family: 'Raleway', sans-serif;
-  margin-top: 1rem;
 }
 
-.showcase-img{
-  background-size: 100% 480px;
+.no-gutters .showcase-text h2{
+  font-family: 'Roboto', sans-serif;
 }
 
-.no-gutters:nth-child(odd) .showcase-img{
+.logo .title{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/*.no-gutters:nth-child(odd) .showcase-img{
   border-bottom: 2px solid #00F;
   border-top: 2px solid #00F;
   border-left: 2px solid #f90;
@@ -38,11 +45,11 @@ img.logomarca{
 
 .no-gutters:last-child .showcase-img{
   border-bottom: 0;
-}
+}*/
 
 @media (max-width: 768px) {
 
-  .no-gutters:nth-child(odd) .showcase-img{
+  /*.no-gutters:nth-child(odd) .showcase-img{
     border-bottom: 2px solid #00F;
     border-top: 2px solid #00F;
     border-left: 0px solid #f90;
@@ -61,6 +68,64 @@ img.logomarca{
 
   .no-gutters:last-child .showcase-img{
     border-bottom: 0;
+  }*/
+
+  .showcase .showcase-img{
+    background-size: cover;
   }
 
+  img.logomarca{
+    height: auto;
+  }
+  .order-md-1{
+    order: 1;
+  }
+
+  .order-md-2{
+    order: 2;
+  }
+
+  .order-md-3{
+    order: 3;
+  }
+
+  .order-md-4{
+    order: 4;
+  }
+
+  .order-md-5{
+    order: 5;
+  }
+  .order-md-6{
+    order: 6;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .showcase-img{
+      display: none;
+  }
+}
+
+.showcase .showcase-img{
+  background-size: 100% 480px;
+  background-repeat: no-repeat;
+}
+
+.no-gutters{
+  max-height: 480px;
+  text-align: justify;
+}
+
+.showcase1 {
+  background-image: url('../img/bg-showcase-1.jpg');
+}
+
+.showcase2 {
+  background-image: url('../img/bg-showcase-kmz.jpg');
+}
+
+.showcase3{
+  background-image: url('../img/bg-showcase-3.svg');
 }
