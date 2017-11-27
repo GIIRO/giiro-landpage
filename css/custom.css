@@ -2,6 +2,10 @@ html,body,header.masthead, section.h100{
   height: 100%;
 }
 
+body{
+  background-color: #f8f9fa !important;
+}
+
 .valign{
   vertical-align: middle;
   line-height: 60px;
@@ -12,8 +16,8 @@ header.masthead{
   padding-top: 10rem;
 }
 
-header.masthead,
-section{
+section#keys-values,
+section#features{
   max-width: 1300px;
   margin: 0 auto;
 }
