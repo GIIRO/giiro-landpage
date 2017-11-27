@@ -158,3 +158,21 @@ img.logomarca{
 .no-decoration:hover{
   text-decoration: none;
 }
+
+.text-primary-giiro{
+  color: #7DA40D;
+}
+
+.btn-primary-giiro{
+  background-color: #7DA40D;
+  color: #fff;
+}
+
+.btn-primary-giiro:active,
+.btn-primary-giiro:focus,
+.btn-primary-giiro:visited{
+  outline: 0;
+  color: #fff;
+  /*color: #7DA40D;*/
+  box-shadow: 0 0 0 .2rem rgba(194, 228, 158, .50);
+}
