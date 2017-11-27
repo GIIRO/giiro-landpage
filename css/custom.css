@@ -1,6 +1,21 @@
+html,body,header.masthead, section.h100{
+  height: 100%;
+}
+
+.valign{
+  vertical-align: middle;
+  line-height: 60px;
+}
+
 header.masthead{
   background-image: url(../img/bg-map.jpg);
   padding-top: 10rem;
+}
+
+header.masthead,
+section{
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .center{
@@ -128,4 +143,9 @@ img.logomarca{
 
 .showcase3{
   background-image: url('../img/bg-showcase-3.svg');
+}
+
+.features-icons {
+    padding-top: 12rem;
+    padding-bottom: 9rem;
 }
