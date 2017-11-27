@@ -153,3 +153,8 @@ img.logomarca{
     padding-top: 12rem;
     padding-bottom: 9rem;
 }
+
+.no-decoration,
+.no-decoration:hover{
+  text-decoration: none;
+}
