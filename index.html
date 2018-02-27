@@ -23,19 +23,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="vendor/aos/css/aos.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
   </head>
-
   <body>
-
-    <!-- Navigation -->
-    <!-- <nav class="navbar navbar-light bg-light static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
-      </div>
-    </nav> -->
 
     <!-- Masthead -->
     <header class="masthead text-white text-center">
@@ -62,7 +54,7 @@
     <!-- Icons Grid -->
     <section id="features" class="features-icons bg-light text-center">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row" data-aos="fade-down">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
@@ -91,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-down">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
@@ -127,8 +119,8 @@
     <section id="keys-values" class="showcase">
       <div class="container-fluid p-0">
         <div class="row no-gutters">
-          <div class="col-md-6 order-lg-2 order-md-2 showcase-img showcase1"></div>
-          <div class="col-md-6 order-lg-1 order-md-1 my-auto showcase-text">
+          <div class="col-md-6 order-lg-2 order-md-2 showcase-img showcase1" data-aos="fade-left"></div>
+          <div class="col-md-6 order-lg-1 order-md-1 my-auto showcase-text" data-aos="fade-right">
             <h2 class="text-primary-giiro">Gestão da rede óptica</h2>
             <p class="lead mb-0">
               O GIIRO é um ambiente de trabalho moderno, projetado para facilitar a gestão, manutenção e compartilhamento das informações da infraestrutura de redes ópticas.
@@ -136,8 +128,8 @@
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-md-6 order-lg-1 order-md-4 text-white showcase-img showcase2"></div>
-          <div class="col-md-6 order-lg-2 order-md-3 my-auto showcase-text">
+          <div class="col-md-6 order-lg-1 order-md-4 text-white showcase-img showcase2" data-aos="fade-left"></div>
+          <div class="col-md-6 order-lg-2 order-md-3 my-auto showcase-text" data-aos="fade-right">
             <h2 class="text-primary-giiro">Integração</h2>
             <p class="lead mb-0">
               O GIIRO reduz a perda de tempo com a recriação de redes pré-existentes em outras bases, permitindo a importação da rede georreferenciada via arquivo KMZ e CSV.
@@ -146,8 +138,8 @@
           </div>
         </div>
         <div class="row no-gutters">
-          <div  class="col-md-6 order-lg-2 order-md-6 text-white showcase-img showcase3"></div>
-          <div class="col-md-6 order-lg-1 order-md-5 my-auto showcase-text">
+          <div  class="col-md-6 order-lg-2 order-md-6 text-white showcase-img showcase3" data-aos="fade-right"></div>
+          <div class="col-md-6 order-lg-1 order-md-5 my-auto showcase-text" data-aos="fade-left">
             <h2 class="text-primary-giiro">Relatórios</h2>
             <p class="lead mb-0">
               Saiba com exatidão a quantidade de elementos e extensão da sua rede.
@@ -157,36 +149,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Testimonials -->
-    <!-- <section class="testimonials text-center bg-light">
-      <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-              <h5>Margaret E.</h5>
-              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-              <h5>Fred S.</h5>
-              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-              <h5>Sarah	W.</h5>
-              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <!-- Call to Action -->
     <section class="features-icons  bg-dark text-white text-center">
@@ -270,6 +232,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/aos/js/aos.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 
