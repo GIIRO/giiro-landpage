@@ -138,3 +138,30 @@ img.logomarca{
 section{
     overflow: hidden;
 }
+
+#header{
+  box-shadow: 0 0 5px rgba(0,0,0,.8);
+  line-height: 28px;
+}
+
+.fixed-theme {
+  background-color: #f5f6fa;
+  border-color: #080808;
+  z-index: 1;
+  line-height: 42px !important;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
